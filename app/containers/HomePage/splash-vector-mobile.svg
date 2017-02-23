@@ -5,8 +5,10 @@
 <style type="text/css">
 	.st0{fill:#E7BBD5;}
 	.st1{fill:none;stroke:#E7BBD5;stroke-miterlimit:10;}
+	.st2{display:none;fill:#E7BBD5;}
 </style>
 <polygon class="st0" points="1920,3255 2,2814 0,0 1920,0 "/>
 <path class="st1" d="M0,4582.9h104H0z"/>
 <line class="st1" x1="0" y1="4582.9" x2="0" y2="4582.9"/>
+<polygon class="st2" points="1920.6,3894.2 -0.6,2820.5 -0.6,1711.8 1919.4,1711.8 "/>
 </svg>

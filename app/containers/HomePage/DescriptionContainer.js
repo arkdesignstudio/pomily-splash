@@ -5,10 +5,10 @@ const DescriptionContainer = styled.div`
   height: 170px;
   margin-left: 15vw;
   @media(max-height: 800px){
-    margin-top: 15vh;
+    margin-top: 25vh;
   }
   @media(min-height: 800px){
-    margin-top: 20vh;
+    margin-top: 30vh;
   }
   @media(max-width: 700px){
     margin-top: 32vh;

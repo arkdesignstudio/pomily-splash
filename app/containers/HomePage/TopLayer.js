@@ -23,8 +23,9 @@ const TopLayer = styled.div`
 
   background-color: #fffbf9;
   width: 100vw;
-  height: 100vh;
-  z-index: 5;
+  height: 120vh;
+  z-index: ${(props) => props.topIndex};
+  //position: absolute;
   position: fixed;
   transition: 2s;
   opacity: ${(props) => props.opacity};

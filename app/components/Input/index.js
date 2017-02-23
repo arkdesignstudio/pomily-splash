@@ -1,23 +1,28 @@
 /**
- *
- * Button.react.js
- *
- * A common button, if you pass it a prop "route" it'll render a link to a react-router route
- * otherwise it'll render a link with an onclick
+ * A link to a certain page, an anchor tag
  */
 
-import React, { PropTypes, Children } from 'react';
+import styled from 'styled-components';
 
-import Wrapper from './Wrapper';
+const Input = styled.input`
+  z-index: 3;
+  text-align: left;
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #E5B5D1;
+  height: 35px;
+  width: 260px;
+  margin-top: 35px;
+  border-bottom: solid 2px;
+  border-color: #E5B5D1;
+  margin-left: 15px;
 
+  &:focus{
+    outline: none;
+  }
 
-function Input(props) {
-  return (
-      <Wrapper>
-          <input width={props.width} ></input>
-      </Wrapper>
-  );
-}
-
+`;
 
 export default Input;

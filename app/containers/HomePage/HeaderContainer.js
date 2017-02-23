@@ -6,7 +6,7 @@ const HeaderContainer = styled.div`
   background-color: #FFF9F8;
   box-shadow: 0px 0.5px 4px #BFB1AA;
   z-index: 100;
-  position: relative;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;

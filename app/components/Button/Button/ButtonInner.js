@@ -27,12 +27,12 @@ const ButtonInner = styled.div`
   @media(max-height: 800px){
       font-size: 10px;
       height: 32px;
-      width: 160px;
+      width: 140px;
   }
   @media(min-height: 800px){
       font-size: 12px;
       height: 32px;
-      width: 160px;
+      width: 140px;
   }
   &:hover {
 
